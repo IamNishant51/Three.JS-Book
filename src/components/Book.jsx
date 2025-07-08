@@ -167,6 +167,8 @@ const Page = ({ number, front, back, page, opened, bookClosed, ...props }) => {
       return;
     }
 
+    //this commented code adds the hovering color effect on the pages
+
     // const emissiveIntensity = highlighted ? 0.22 : 0;
     // skinnedMeshRef.current.material[4].emissiveIntensity =
     //   skinnedMeshRef.current.material[5].emissiveIntensity = MathUtils.lerp(
